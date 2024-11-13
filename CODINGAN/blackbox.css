@@ -1,0 +1,164 @@
+.main-conten{
+    height: 340px;
+    font-weight: 100%;
+    background-color: rgb(247, 166, 166);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  li img {
+      margin-right: 15px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .beranda{
+    margin-top: 50px;
+    height: 40px;
+    font-weight: 100;
+  
+  }
+  .img{
+  height: 200px;
+ margin-top: 20px;
+    margin-left: 20cm;
+  }
+.selengkapnya{
+  margin-right: 20%;
+}
+  .button {
+    display: inline-block;
+    background-color: #2a9df4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 200cm;
+  }
+
+  .Profil{
+    
+    font-weight: 100;
+   
+  
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.section {
+    width: 45%;
+    text-align: left;
+}
+.kurikulum{
+    height: 139px;
+    font-weight: 100;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #4A4AB2 ;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.card p {
+    margin: 5px 0;
+}
+  .fasilitas{
+   height: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact, .follow {
+    background-color:  #4A4AB2;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+   width: 100%;
+}
+.contact h2, .follow h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 30cm;
+    
+}
+.contact label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.contact input, .contact textarea {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.contact button {
+    padding: 10px 20px
+    border; 
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: 100;
+}
+.follow .social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.follow .social i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.follow .social span {
+    font-size: 18px;
+   
+}
+.follow{
+  text-align: center;
+}
+  
+  
